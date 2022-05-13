@@ -4,16 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"   href="./Assets/index.css">
+    <script src="./index.js" defer ></script>
+
 
     <title>Multi-choice-Website</title>
 </head>
 <body>
   <h1>Multi-choice Website</h1> 
-  <!--script placed at the end of the body to be able to render(good user experience) -->
-  <script>
-    //separation of concerns
+  <!--First step--> 
+  
+  <div class="buttons">
+    <div class="take">
+        <button>Take the Quiz</button>
+      </div>
+      <div class="retake">
+          <button>Retake</button>
+      </div>
+  </div>
+  
+  <!--Questions-->
+  <div class="questions">
+      <header>
+          <div class="multi">Multi-choice-Website
+          </div>
+      </header> 
+     <section>
+         <div class="quiz"> 
+             <span>What is the logo?</span>
+         </div>
+         <div class="multipleanswer">
+            <div class="choice">
+               <span>BMW</span>
+               <div class="icon">
+                   <i class="fas fa-check"></i> </div>
+            </div>
+
+            <div class="choice">
+                <span>BMW</span>
+                <div class="icon">
+                    <i class="fas fa-check"></i> </div>
+            </div>
+
+            <div class="choice">
+                <span>BMW</span>
+                <div class="icon">
+                    <i class="fas fa-check"></i> </div>
+            </div>
+
+            <div class="choice">
+                <span>BMW</span>
+                <div class="icon">
+                    <i class="fas fa-check"></i> </div>
+            </div>
+
+         </div>
+     </section>  
+     
+     <section>
+         <footer>
+            <div>
+               <span>
+                <p>2</p> <p>of</p> <p>7</p>
+               </span>
+            </div>
+            <button class="next">Next Quiz</button>
+         </footer>
+     </section>
     
-  </script>
+  </div>
 
 </body>
 </html>
