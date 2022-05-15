@@ -1,6 +1,8 @@
 //variables names.. cannot be a reserved keyword
 //should be meaningful
 //cannot start with a number
+//const btn = document.getElementById("btn")
+//btn
 //cannot contain a space or hyphen
 //case sensitive
 //
