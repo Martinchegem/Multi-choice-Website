@@ -4,46 +4,61 @@ body{
     background:linear-gradient(to right, #87CEEB, #9F81CD);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
-    box-shadow: red;
 }
 .take{
-    position: absolute;
     top: 10%;
     left: 40%;
-    padding: 2vw 4vw;
-    border-radius: 6vw;
-    
+    padding: 3vw 6vw;
+    border-radius: 3vw;
+    font-size: 20px;
 }
-.retake,{
-    position: absolute;
-    top: 50%;
-    right: 60%;
-    padding: 2vw 4vw;
-    border-radius: 4vw;
+.buttons > .take{
+    top: 48px;
+    font-size: 20px;
 }
 .submit{
-    position: absolute;
-    top: 100%;
-    right: 60%;
-    padding: 2vw 4vw;
-    border-radius: 4vw;
-    
+    display: inline;
+    width: 50%;
+    font-size: 20px;
+
 }
-.buttons :hover{
- background-color: rgb(12, 218, 122);
- color: aliceblue;
- padding: 15px 40px;
- border-radius: 4vw;
- font-weight: normal;
- text-transform: uppercase;
- transition: all 0.2s ease-in;
+.retake{
+    width: 50%;
+    display: inline;
+}
+
+
+footer .last{
+        bottom: 70px;
+        width: 100%;
+        color: white;
+        padding: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 1%;
+       
+    }
+footer.submit :hover{
+    background-color: rgb(12, 218, 122);
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 4vw;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
 }
 .questions{
     width: 550px;
     background-color: antiquewhite;
     border-radius: 5px;
     padding: 25px 30px 20px 30px;
-
+}
+.questions{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(5, 238, 238);
+    padding: 5vh;
+    
 }
 .questions > .multi{
    height: 70px;
@@ -76,10 +91,4 @@ body{
 .choices{
     border: 1px solid #4636db;
 }
-.questions{
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(5, 238, 238);
-    padding: 10px;
-    
-}
+
