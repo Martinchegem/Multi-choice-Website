@@ -73,3 +73,25 @@ takeTheQuiz = () =>{
         scoreText.innerText = score
     }
     takeTheQuiz()
+
+  let score = 30;
+  let comment = 
+
+  if (score <50){
+      comment = hhhhhh.;
+  }
+  else if (score >= 50 && score <=80) {
+      comment = "hhhhhh";
+  }
+  else {
+      comment ="hhhhh"
+  }
+
+  btnSubmit.addEventListener("click", () =>) {
+      document.querySelector(".comments").textContent = comment
+  }
+
+
+
+
+
