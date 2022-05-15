@@ -8,10 +8,10 @@ body{
 }
 .take{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 40%;
     padding: 2vw 4vw;
-    border-radius: 4vw;
+    border-radius: 6vw;
     
 }
 .retake,{
@@ -21,12 +21,13 @@ body{
     padding: 2vw 4vw;
     border-radius: 4vw;
 }
-.next,{
+.submit{
     position: absolute;
-    top: 50%;
+    top: 100%;
     right: 60%;
     padding: 2vw 4vw;
     border-radius: 4vw;
+    
 }
 .buttons :hover{
  background-color: rgb(12, 218, 122);
@@ -61,8 +62,8 @@ body{
     padding: 20px 0;
 }
 .multipleanswer{
-    background-color: bisque;
-    border: 1px solid #b7eb87;
+    background-color: rgb(13, 243, 212);
+    border: 1px solid #6fdcf0;
     border-radius: 5px;
     padding: 8px 15px;
     display: flex;
@@ -74,4 +75,11 @@ body{
 }
 .choices{
     border: 1px solid #4636db;
+}
+.questions{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(5, 238, 238);
+    padding: 10px;
+    
 }
