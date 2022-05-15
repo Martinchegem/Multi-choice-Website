@@ -1,26 +1,19 @@
-//variables names.. cannot be a reserved keyword
-//should be meaningful
-//cannot start with a number
+
 //const btn = document.getElementById("btn")
 //btn
-//cannot contain a space or hyphen
-//case sensitive
-//
+
+btnSubmit.addEventListener("click", () =>) {
+    document.querySelector(".submit").textContent = comment
+}
+
 const questions = document.querySelector('#question');
 const choices = Array.from (document.querySelectorAll('.choice'));
-const questions = document.querySelector('#question');
-const questions = document.querySelector('#question');
-const questions = document.querySelector('#question');
+
 
 let currentQuestion = {}
 let acceptingAnswers = true;
 let score = 0;
 
-let questions = [
-    {question:'What is a body in HTML'
-    choice
-}
-]
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
@@ -87,9 +80,7 @@ takeTheQuiz = () =>{
       comment ="You have excellently passed"
   }
 
-  btnSubmit.addEventListener("click", () =>) {
-      document.querySelector(".comments").textContent = comment
-  }
+  
 
 
 
