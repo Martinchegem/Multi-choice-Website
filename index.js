@@ -78,13 +78,13 @@ takeTheQuiz = () =>{
   let comment = 
 
   if (score <50){
-      comment = hhhhhh.;
+      comment = "You have scored poorly and you need to retake the test.";
   }
   else if (score >= 50 && score <=80) {
-      comment = "hhhhhh";
+      comment = "You have fairly passed";
   }
-  else {
-      comment ="hhhhh"
+  else if (score >=81 && score <=100 ) {
+      comment ="You have excellently passed"
   }
 
   btnSubmit.addEventListener("click", () =>) {
