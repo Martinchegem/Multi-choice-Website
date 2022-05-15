@@ -37,3 +37,41 @@ body{
  text-transform: uppercase;
  transition: all 0.2s ease-in;
 }
+.questions{
+    width: 550px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 25px 30px 20px 30px;
+
+}
+.questions > .multi{
+   height: 70px;
+   padding: 0 30px;
+   background-color: antiquewhite;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 5px 5px 0 0;
+}
+.multi{
+    font-size: 25px;
+    font-weight: 500;
+}
+.quiz{
+    padding: 20px 0;
+}
+.multipleanswer{
+    background-color: bisque;
+    border: 1px solid #b7eb87;
+    border-radius: 5px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px 0;
+    display: block;
+}
+.choices{
+    border: 1px solid #4636db;
+}
