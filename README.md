@@ -1,14 +1,23 @@
-#  By Martin Chege## Screenshot
- ! ## Table of Content - [Description](#description)
+#  Authors  By Martin Chege## Screenshot
+ ! ## Table of Content 
+- [Description](#description)
  - [Features](#features)
  - [Behaviour Driven Development](#Behaviour-Driven-Development)
  - [Requirements](#requirements)
  - [Installation Process](#installation-Process)
  - [Live Link](#Live-Link)
  - [Technology  Used](#technology-Used)
+HTML
+CSS
+JavaScript
  - [Licence](#licence)
- - [Authors Info](#Authors-Info) ## Description <p>This project is a web application that shows facilitates tasks such as doing questions. It has a first page that has a button Take the Quiz, once you click on the button you go to the next page that has questions with choices, click on the checkbox to select the correct answer then once done click on submit button that should take you to the final stage where you will get your results and some message if your score is below 50 you will be advised to retake the test.  (#Multi-Choice Website)
-Move at a tap of a button[Go Back to the top](#)## Behaviour Driven Development|| Behaviour      | Input        | Output       |
+ - [Authors Info](#Authors-Info) ## Description 
+
+<p>This project is a web application that shows facilitates tasks such as doing questions. It has a first page that has a button Take the Quiz, once you click on the button you go to the next page that has questions with choices, click on the checkbox to select the correct answer then once done click on submit button that should take you to the final stage where you will get your results and some message if your score is below 50 you will be advised to retake the test. 
+
+ (#Multi-Choice Website)
+Move at a tap of a button[Go Back to the top]
+(#)## Behaviour Driven Development|| Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
 |  Enter your name  |   Martin Chege |     |
 | Enter your Email Address  | martin.chege@students.moringaschool.com |   |
@@ -18,7 +27,9 @@ Move at a tap of a button[Go Back to the top](#)## Behaviour Driven Development|
 * Clone to their repo : git clone https://github.com/Martinchegem/Multi-choice-Website/tree/master Unzip the downloaded files in a folder of choice.* Open the index file from the zipped file with any browser.
  ****
  [Go Back to the top](#Multi-Choice Website))
-### Live Link- Click this link to view the live application https://martinchegem.github.io/Multi-choice-Website/-   ### Technology  Used
+### Live Link- Click this link to view the live application https://martinchegem.github.io/Multi-choice-Website/-   
+
+### Technology  Used
 * HTML - which was used to developed the structure off the pages.* CSS - which was used to style the User Interface and JavaScript to compute the answers[Go Back to the top](#Moringa School Access 25)## Known Bugs
 ## LicenceMIT LicenseCopyright (c) [2019] [Martin Chege]Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
