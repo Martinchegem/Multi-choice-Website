@@ -8,15 +8,17 @@ This project is a three page Web application that enable users who are students 
 
 ### **Description of program**
 
-The Multi Choice Website has five question where a students are to pick one answer for each question and then submit to get results if the student scoresabove 80% they receive a congratulations messages but when the student scires beloew 50%they have to retake the questions.
+The Multi Choice Website has five question where a students are to pick one answer for each question and then submit to get results if the student scores above 80% they receive a congratulations messages but when the student scores below 50% they have to retake the questions.
 
 #### **Technology used**
+
 HTML - which was used to develop the structure of the page
 CSS - which was used to style the User Interface.  
 JavaScript -Which is used to create dynamic and interactive web content in our case Js is used to check if the students get the score for each quiz submitted.
 
 
 ### **program setup instructions**
+
 * Clone  the repo : git clone https://github.com/Martinchegem/Multi-choice-Website
 
 * Unzip the downloaded files in a folder of choice.
@@ -24,11 +26,13 @@ JavaScript -Which is used to create dynamic and interactive web content in our c
 * Open the index file from the zipped file with any browser(Prefer Google Chrome).
 
 ### **Link to the site on GitHub Pages**
+
 To check out the website live at: https://martinchegem.github.io/Multi-choice-Website/
 <br>
 
 
 ### **Copyright and license information**
+
 [MIT](https://opensource.org/licenses/MIT)
 
 Copyright <2022> <Martin Chege>
